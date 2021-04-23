@@ -25,4 +25,12 @@
     4. d) student["Favorite Teacher"].name
     5. e) student.courseLoad[0] 
 13. Question 13
-    1.   
+    1. a) '32' this is turned into a string concatination and concatinates the strings '3' and '2'
+    2. b) 1 this instead turns the strng into an int and does normal subtraction
+    3. c) 3 null is just iterpreted as zero so it is the same as 3 + 0
+    4. d) '3null' this time since a string is first null is turned into a string and concatinated with the 3 string
+    5. e) 4 true is interpreted as a 1 and added to 3
+    6. f) 0 these are both interpreted as zeros so it is the same as zero plus zero
+    7. g) '3undefined' similar to null undefined is concerted to a string and concatinated to the 3
+    8. h) NaN this results in it being undefined so the output is NaN or undefined
+ 14. 
