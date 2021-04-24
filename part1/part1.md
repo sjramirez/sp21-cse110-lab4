@@ -42,4 +42,7 @@
      6.  f) true the boolean class will return a number that is greater than zero as the boolean true so then it is comparing true to true 
 
 15.  the difference between the == and the === operator is that the == operation will type convert the argument and do a comparison after that while the === operation will not change the type and is instead a strict comparison without type changing.
-16.  
+16.  written in file part1b-question16.js
+17.  So this function will return an array with all the elements of the previous array being doubled. I arrived at this conclusion for a few reasons. so starting off we are passing in two parameters one called array and the other called callback. then we are in the for loop iterating over the elements in a and applying the parameter callback to them. So looping at what we passed in as callback which was our function doSomething and that function doubles the numebr that was passed into it. so therefore we are itterating over all the elements in array and doubleing them by applying callback to them.
+18.  written in file part1b-question18.js
+19.  The output of the above code is 1 3 4 2 this is because the printing of the number 2 is delayed by one second so the other functions occur first and print their numbers then 2 prints after the tieout of one second.
