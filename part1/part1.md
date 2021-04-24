@@ -18,7 +18,7 @@
 9.  this will result in a runtime error for the same reason at #5 that is was instanciated in a for loop with a let keyword so trying to acsess it outside of that for loop will cause an error
 10. This will print 3 as it is the length of this list as it was passed in and the const keyword does not restrict its acsess as long as its value is not changed
 11. this will return a list of the newly discoutned prices in this ccase those are [50,100,150] and this is prefectly valid since we are never redefining and constant keywords and the one that we do do inside the for loop is okay because every iteration that variable is destroyed and created again.
-12.  Question 12
+12. Question 12
     1. a) student.name
     2. b) student["Grad Year"] 
     3. c) student.greeting()
@@ -33,4 +33,13 @@
     6. f) 0 these are both interpreted as zeros so it is the same as zero plus zero
     7. g) '3undefined' similar to null undefined is concerted to a string and concatinated to the 3
     8. h) NaN this results in it being undefined so the output is NaN or undefined
- 14. 
+ 14. Question 14
+     1.  a) true this is because '2' is converted to integer and then the comparison is done
+     2.  b) false since these are both strings then they are compared in dictionary order making it false
+     3.  c) true the string 2 is converted to an integer and then they are compared returning true
+     4.  d) false for this it is a direct comparison that will not convert the string to an integer
+     5.  e) false this is because true is converted to 1 and then compared and these are not the same 
+     6.  f) true the boolean class will return a number that is greater than zero as the boolean true so then it is comparing true to true 
+
+15.  the difference between the == and the === operator is that the == operation will type convert the argument and do a comparison after that while the === operation will not change the type and is instead a strict comparison without type changing.
+16.  
